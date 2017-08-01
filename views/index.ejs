@@ -1,0 +1,22 @@
+<html>
+  <head>
+  <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <h1>Loop it!</h1>
+    <ul>
+        <% for(var i=0; i<length; i++){ %>
+            <li>
+                <%= "LOOP" + i %>
+            </li>
+        <% } %>
+    </ul>
+    
+    <% if(userName) { %>
+      <h2> welcome! <%= userName %> <br>(name : <%= name %>) </h2>      
+    <% } else { %>  
+      <h2> please login first </h2>
+    <% }%>
+  </body>
+</html>

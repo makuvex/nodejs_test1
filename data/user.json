@@ -1,0 +1,35 @@
+{
+	"first_user": {
+		"password": "first_pass",
+		"name": "abet"
+	},
+	"second_user": {
+		"password": "second_pass",
+		"name": "betty"
+	},
+	"test1": {
+		"password": "newpass",
+		"name": "charlie"
+	},
+	"test2": {
+		"password": "newpass",
+		"name": "charlie"
+	},
+	"test3": {
+		"password": "newpass",
+		"name": "charlie"
+	},
+	"test4": {
+		"password": "newpass",
+		"name": "charlie"
+	},
+	"test5": {
+		"password": "newpass",
+		"name": "charlie"
+	},
+	"makuvex": {
+		"password": "1234",
+		"name": "node js test"
+	}
+
+}
